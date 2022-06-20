@@ -36,3 +36,20 @@
     display: flex;
     gap: 27px;
 }
+@media (max-width: 540px){
+    .nav{
+        padding: 14px 50px 24px;
+    }
+    .navwrap{
+        gap: 20px;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+}
+@media(max-width: 540px) {
+    .title{
+        font-size: 18px;
+        letter-spacing: 0.45em;
+        justify-content: center;
+    }
+}

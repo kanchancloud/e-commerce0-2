@@ -23,7 +23,7 @@ function cards(props) {
                             <span className={style.productId}>{props.data.id}</span>
                             <span className={style.productDiscount}>   ({props.data.discount_usd}%Off) </span>
                         </div>
-                        <AddCartSvg/>
+                        <AddCartSvg />
                     </div>
                 </div>
             </Card.Body>

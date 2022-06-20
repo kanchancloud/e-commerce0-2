@@ -8,13 +8,21 @@
     align-items: flex-start;
     gap: 56px;
     padding: 0 32px;
+    flex-wrap: wrap;
 }
-.bagIcon1{
-    width: 90px;
+
+.bagIcon1 {
+    width: 76px;
     height: 124px;
 
 }
-.bagIcon2{
-    width: 96px;
+
+.bagIcon2 {
+    width: 88px;
     height: 125px;
+}
+@media(max-width: 540px){
+    .IconsWrapper{
+        justify-content: center;
+    }
 }
