@@ -1,0 +1,25 @@
+nav.breadcrumb {
+    padding: 32px 32px 4px;
+    position: relative;
+}
+.breadcrumbIcon{
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+nav.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: "." !important;
+    font-weight: 900;
+}
+.breadcrumbWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 31px;
+}
+.productIcon{
+    padding-left: 14px;
+}

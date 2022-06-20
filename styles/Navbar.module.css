@@ -1,0 +1,38 @@
+.navwrap {
+    list-style: none;
+    gap: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navwrap a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.55em;
+    text-align: left;
+    color: rgba(229, 223, 217, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav {
+    top: 0;
+    color: rgba(229, 223, 217, 1);
+    padding: 20px 20px 32px;
+}
+
+
+.TopIconsWrapper {
+    display: flex;
+    gap: 27px;
+}

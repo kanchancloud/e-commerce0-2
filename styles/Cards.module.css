@@ -1,0 +1,78 @@
+
+.CardsWrapper {
+    width: 280px;
+    color: white;
+    background-color: #141414;
+    border-radius: 6px;
+}
+
+.imgWrapper {
+    width: 100%;
+    max-height: 373px;
+    overflow: hidden;
+    position: relative;
+}
+.IamgeAddIcon{
+    position: absolute;
+    width: 26px;
+    left: 237.44px;
+    top: 17.08px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34.1646px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.cardImg {
+    width: 100%;
+}
+
+.cardBody {
+    background-color: #141414;
+}
+
+.cardprop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 31px;
+    row-gap: 39px;
+}
+
+.addIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CardText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.detailWrap {
+    row-gap: 4px;
+}
+
+.CardText .productAmount {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 78px 0px 25px 10px;
+}
+
+.productId {
+    font-size: 11px;
+    font-weight: 400;
+
+}
+
+.productDiscount {
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(47, 193, 79, 1);;
+}
+.addImgIcon{
+    color:white;
+}
