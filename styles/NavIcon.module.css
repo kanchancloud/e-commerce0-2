@@ -4,21 +4,23 @@
 
 .IconsWrapper {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     gap: 56px;
     padding: 0 32px;
-    flex-wrap: wrap;
+    width: 95%;
+    overflow: auto;
+}
+.IconsWrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .bagIcon1 {
-    width: 76px;
+    width: 90px;
     height: 124px;
 
 }
-
 .bagIcon2 {
-    width: 88px;
+    width: 96px;
     height: 125px;
 }
 @media(max-width: 540px){
